@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Profil - Aldi Firdaus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+    body {
+      margin: 0; background: #0d0d0d;
+      color: #e0e0e0; font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+    }
+    .container {
+      max-width: 800px; margin: 2rem auto; padding: 1rem;
+      background: rgba(255,255,255,0.05);
+      border-radius: 15px; backdrop-filter: blur(10px);
+    }
+    h1 {
+      font-size: 2.5rem; text-align: center;
+      background: linear-gradient(90deg, #00f, #0ff);
+      -webkit-background-clip: text; color: transparent;
+    }
+    .profile-pic {
+      display: block; margin: 1rem auto;
+      width: 200px; height: 200px;
+      border-radius: 50%; object-fit: cover;
+      border: 4px solid #0ff;
+    }
+    .section {
+      margin: 2rem 0;
+      padding: 1rem;
+      background: rgba(0, 255, 255, 0.05);
+      border-left: 4px solid #0ff;
+      animation: fadeIn 1s ease-out;
+    }
+    .section img {
+      width: 100%; border-radius: 10px;
+      margin-top: 1rem;
+      border: 2px solid #0ff;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Aldi Firdaus – 2300018185</h1>
+    <img src="al.jpg" alt="Aldi Firdaus" class="profile-pic">
+    <div class="section">
+      <h2>Tentang Saya</h2>
+      <p>Halo, saya Aldi Firdaus, mahasiswa NIM 2300018185. Saya berasal dari Sumatra, tepatnya Bangka Belitung – tanah kelahiran yang kaya sejarah dan pesona alam.</p>
+    </div>
+    <div class="section">
+      <h2>Wisata Unggulan Bangka Belitung</h2>
+      <p>Berikut salah satu destinasi wisata ikonik:</p>
+      <img src="tt.webp" alt="Pantai Tanjung Tinggi, Bangka Belitung">
+      <p>📍 <strong>Pantai Tanjung Tinggi</strong>: terkenal dengan pasir putih, air biru jernih, dan bongkahan granit besar khas Belitung :contentReference[oaicite:8]{index=8}.</p>
+    </div>
+  </div>
+</body>
+</html>
